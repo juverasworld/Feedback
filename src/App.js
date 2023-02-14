@@ -15,9 +15,9 @@ function App() {
             <div className='flex  px-4 '>  <p className='pr-5 my-2'><img src={user} className='w-10 h-10 mt-4 animate-bounce' /></p>
               <input type='text' placeholder='Name' className='border-b-black w-full mb-4 required  ' />
             </div>
-            <div className='flex mb-4 px-4 '><p className='pr-5 my-2'><img src={message} className='w-10 h-10 mt-4 animate-pulse' /></p><input type='email' className='w-full mb-4' placeholder='Email' required /></div>
-            <div className='flex  px-4 '><p className='pr-5 my-2'><img src={message} className='w-10 h-10 animate-ping' /></p>
-              <input type='text' className='w-full  mb-4' required /> </div>
+            <div className='flex mb-4 px-4 '><p className='pr-5 my-2'><img src={message} className='w-10 h-10 mt-4 ' /></p><input type='email' className='w-full mb-4' placeholder='Email' required /></div>
+            <div className='flex  px-4 '><p className='pr-5 my-2'><img src={message} className='w-10 h-10 ' /></p>
+              <input type='password' className='w-full  mb-4'placeholder='Password' required /> </div>
             <div className='items-end    ml-44 sm:ml-48 my-10 '> <button className='border-2 sm:mr-10 mr-5 rounded-full px-8 py-2  bg-purple-400'>Send</button></div>
           </div>
 
